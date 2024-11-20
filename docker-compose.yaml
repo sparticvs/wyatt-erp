@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:17
+    restart: always
+    environment:
+      POSTGRES_DB: wyatt_erp
+      POSTGRES_USER: wyatt
+      POSTGRES_PASSWORD: wyatt
+    ports:
+      - 5432:5432
+
