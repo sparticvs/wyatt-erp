@@ -4,4 +4,4 @@ djangorestframework==3.16.0
 psycopg==3.2.12
 psycopg-binary==3.2.12
 sqlparse==0.5.5
-typing_extensions==4.14.1
+typing_extensions==4.15.0
